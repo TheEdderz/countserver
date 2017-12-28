@@ -1,4 +1,4 @@
-var PORT = 3000;
+var PORT = 8080;
 
 function countClick(){
 	$.ajax({url: 'http://localhost:' + PORT + '/click', success: function(data){
